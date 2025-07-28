@@ -1,13 +1,44 @@
-# Project--Snake-Game
-A snake game, simple logic and easy run
+# Snake Game
 
-# How to Run the Snake Game on Any System
-The Snake game we've created is built with standard web technologies (HTML, CSS, and JavaScript), which means it can run on virtually any system with a web browser. Here are the different ways you can run it:
+A classic Snake game implemented using HTML5 Canvas, CSS, and JavaScript.
 
-## Method 1: Direct File Opening (Simplest)
-1. 1.
-   Copy all the project files ( index.html , style.css , and script.js ) to a folder on the target system
-2. 2.
-   Double-click the index.html file to open it directly in your default web browser
-3. 3.
-   The game should load and be ready to play
+## Description
+
+This is a simple implementation of the classic Snake game where the player controls a snake that grows in length as it eats food. The game ends if the snake collides with the walls or itself.
+
+## How to Play
+
+1. Open `index.html` in a web browser
+2. Click the "Start Game" button to begin
+3. Use the arrow keys to control the snake's direction
+4. Eat the red food to grow and increase your score
+5. Avoid hitting the walls or the snake's own body
+6. Click "Reset" to start a new game at any time
+
+## Features
+
+- Responsive design
+- Score tracking
+- Pause/Resume functionality
+- Game over screen with final score
+- Clean and modern UI
+
+## Technologies Used
+
+- HTML5 Canvas for game rendering
+- CSS3 for styling
+- JavaScript for game logic
+
+## Project Structure
+
+- `index.html` - The main HTML file
+- `style.css` - CSS styles for the game
+- `script.js` - JavaScript code containing the game logic
+
+## Future Improvements
+
+- Add difficulty levels
+- Implement high score tracking
+- Add sound effects
+- Create mobile-friendly touch controls
+- Add different types of food with special effects
